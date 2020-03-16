@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_action_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/work"
+            android:icon="@drawable/ic_action_work"
+            android:title="Work" />
+
+        <item
+            android:id="@+id/school"
+            android:icon="@drawable/ic_action_school"
+            android:title="School" />
+
+        <item android:title="More">
+        <menu>
+            <item
+                android:id="@+id/setting"
+                android:icon="@drawable/ic_action_settings"
+                android:title="Setting" />
+
+
+            <item
+                android:id="@+id/history"
+                android:title="History"
+                android:icon="@drawable/ic_action_history"/>
+
+
+        </menu>
+    </item>
+
+        <item android:title="Controls">
+            <menu>
+                <item
+                    android:id="@+id/notifications"
+                    android:icon="@drawable/ic_action_notifications"
+                    android:title="Notifications" />
+
+
+                <item
+                    android:id="@+id/profile"
+                    android:title="Profile"
+                    android:icon="@drawable/ic_action_person"/>
+
+
+            </menu>
+        </item>
+    </group>
+</menu>
